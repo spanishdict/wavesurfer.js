@@ -35,6 +35,10 @@ WaveSurfer.WebAudio = {
         this.paused = true;
     },
 
+    getAudioContext: function () {
+        return this.ac;
+    },
+
     bindUpdate: function (callback) {
         var my = this;
 
